@@ -11,13 +11,14 @@
     tools:context="com.example.sandy.my_button.MainActivity">
 
    <Button
+       android:layout_below="@+id/txtDate"
        android:id="@+id/btnDate"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:text="Date" />
 
    <TextView
-        android:layout_below="@+id/btnDate"
+
        android:id="@+id/txtDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
