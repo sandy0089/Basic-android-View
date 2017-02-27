@@ -1,1 +1,1 @@
-include ':app', ':view_properties', ':relative_layout'
+include ':app', ':view_properties', ':relative_layout', ':two_activities'
