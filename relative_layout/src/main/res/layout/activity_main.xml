@@ -8,58 +8,251 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
     tools:context="com.example.relative_layout.MainActivity">
 
     <Button
+        android:id="@+id/btn1"
+        android:text="red"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"/>
+
 
     <Button
+        android:text="2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true" />
 
     <Button
+        android:text="3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"/>
 
     <Button
+        android:text="4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true" />
 
     <Button
+        android:text="5"
         android:id="@+id/btnCenter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:id="@+id/btn6"
+        android:text="6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btnCenter"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <Button
+        android:text="7"
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btnCenter"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <Button
+        android:text="10"
+        android:id="@+id/btn10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn8"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        android:id="@+id/btn11"
+        android:layout_above="@+id/btn10"
         android:layout_centerInParent="true"
         android:visibility="invisible"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toLeftOf="@+id/btnCenter"
+        android:text="12"
+        android:id="@+id/btn12"
+        android:layout_above="@+id/btn11"
         android:layout_centerInParent="true"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/btnCenter"
-        android:layout_centerInParent="true"/>
-
-    <Button
+        android:text="8"
+        android:id="@+id/btn8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btnCenter"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <Button
+        android:text="9"
+        android:id="@+id/btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCenter"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn13"
+        android:text="13"
+        android:layout_below="@+id/btn9"
         android:layout_centerInParent="true"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btnCenter"
+        android:id="@+id/btn14"
+        android:text="14"
+        android:layout_below="@+id/btn13"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn15"
+        android:text="15"
+        android:layout_below="@+id/btn14"
         android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn16"
+        android:text="16"
+        android:layout_toRightOf="@+id/btn8"
+        android:layout_above="@+id/btn7"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn17"
+        android:text="17"
+        android:layout_above="@+id/btn16"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/btn10"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn18"
+        android:text="18"
+        android:layout_above="@+id/btn6"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/btn8"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn19"
+        android:text="19"
+        android:layout_above="@+id/btn18"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/btn10"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn20"
+        android:text="20"
+        android:layout_above="@+id/btn19"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/btn11"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn21"
+        android:text="21"
+        android:layout_above="@+id/btn17"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/btn11"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn22"
+        android:text="22"
+        android:layout_below="@+id/btn6"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/btn9"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn24"
+        android:text="24"
+        android:layout_below="@+id/btn22"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/btn13"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn25"
+        android:text="25"
+        android:layout_below="@+id/btn24"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/btn14"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn26"
+        android:text="26"
+        android:layout_below="@+id/btn7"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/btn9"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn27"
+        android:text="27"
+        android:layout_below="@+id/btn26"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/btn13"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn28"
+        android:text="28"
+        android:layout_below="@+id/btn27"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/btn14"/>
+
+
+
+
+
+
+
+
+
 
 
 
