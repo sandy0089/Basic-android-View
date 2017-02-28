@@ -5,14 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
 
 
         findViewById(R.id.btnAndroid).setOnClickListener(this::onAndroid);
@@ -24,8 +23,10 @@ public class MainActivity extends AppCompatActivity {
         Class<Next_Activity> cls = Next_Activity.class;
 
         Bundle bundle = new Bundle();
-        bundle.putString("One","iOS-5");
-        bundle.putString("Two","iOS-6");
+        bundle.putString("One","White");
+        bundle.putString("Two","Gray");
+        bundle.putString("Three","Green");
+
 
         Intent intent = new Intent(this,cls);
         intent.putExtras(bundle);
@@ -39,8 +40,10 @@ public class MainActivity extends AppCompatActivity {
          Class<Next_Activity> cls = Next_Activity.class;
 
         Bundle bundle = new Bundle();
-        bundle.putString("One","Marshmallow");
-        bundle.putString("Two","Nougat");
+        bundle.putString("One","Red");
+        bundle.putString("Two","Yellow");
+        bundle.putString("Three","Blue");
+
 
         Intent intent = new Intent(this, cls);
         intent.putExtras(bundle);
