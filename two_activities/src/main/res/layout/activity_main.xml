@@ -10,18 +10,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.two_activities.MainActivity">
 
+   <TextView
+       android:id="@+id/txt1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Select Any Button"/>
+
     <Button
+        android:layout_below="@+id/txt1"
         android:id="@+id/btnAndroid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Android"/>
+        android:text="Dark Colors"/>
 
 
     <Button
         android:id="@+id/btnApple"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Apple"
+        android:text="Light Colors"
         android:layout_below="@+id/btnAndroid"/>
 
 </RelativeLayout>
