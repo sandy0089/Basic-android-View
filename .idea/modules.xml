@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/RadioButton_Color/RadioButton_Color.iml" filepath="$PROJECT_DIR$/RadioButton_Color/RadioButton_Color.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/compoundview/compoundview.iml" filepath="$PROJECT_DIR$/compoundview/compoundview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custon_view/custon_view.iml" filepath="$PROJECT_DIR$/custon_view/custon_view.iml" />
       <module fileurl="file://$PROJECT_DIR$/interactivity_communication/interactivity_communication.iml" filepath="$PROJECT_DIR$/interactivity_communication/interactivity_communication.iml" />
       <module fileurl="file://$PROJECT_DIR$/relative_layout/relative_layout.iml" filepath="$PROJECT_DIR$/relative_layout/relative_layout.iml" />
       <module fileurl="file://$PROJECT_DIR$/two_activities/two_activities.iml" filepath="$PROJECT_DIR$/two_activities/two_activities.iml" />

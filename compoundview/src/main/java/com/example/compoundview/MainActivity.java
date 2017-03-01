@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         compoundView.setOnLongClickListener(this::onLongClick);
         ImageView imgVw = (ImageView) compoundView.findViewById(R.id.imgVw);
         TextView txtVw = (TextView) compoundView.findViewById(R.id.txtVw);
-       txtVw.setText(String.valueOf(System.currentTimeMillis() % 2 ));
+       txtVw.setText(String.valueOf(System.currentTimeMillis() %2  ));
+
 
         layoutInner.addView(compoundView);
 
