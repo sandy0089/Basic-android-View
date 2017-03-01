@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         Bundle bundle = new Bundle();
         bundle.putString("One","White");
         bundle.putString("Two","Gray");
-        bundle.putString("Three","Green");
+        bundle.putString("Three","Yellow");
 
 
         Intent intent = new Intent(this,cls);
@@ -41,8 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         Bundle bundle = new Bundle();
         bundle.putString("One","Red");
-        bundle.putString("Two","Yellow");
-        bundle.putString("Three","Blue");
+        bundle.putString("Two","Green");
 
 
         Intent intent = new Intent(this, cls);
