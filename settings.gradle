@@ -1,1 +1,1 @@
-include ':app', ':view_properties', ':relative_layout', ':two_activities', ':RadioButton_Color', ':interactivity_communication', ':compoundview', ':custon_view'
+include ':app', ':view_properties', ':relative_layout', ':two_activities', ':RadioButton_Color', ':interactivity_communication', ':compoundview', ':custon_view', ':bouncingball', ':activitylifecycle'
